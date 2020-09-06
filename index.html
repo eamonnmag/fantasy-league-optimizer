@@ -114,13 +114,13 @@
             
             var for_select = [];
             Object.keys(players).forEach(function (p_key) {
-                for_select.push({ 'name': players[p_key].name + ' - ' + players[p_key].team + ' - &#163;' + players[p_key].cost, 'value': p_key })
+                for_select.push({ 'name': players[p_key].name + ' - ' + players[p_key].team + ' - &#163;' + players[p_key].cost + 'm', 'value': p_key })
             });
-
+            
             $('.dropdown')
                 .dropdown({
                     action: 'combo',
-                    values: for_select.sort()
+                    values: for_select.sort(function(a, b){return a.name < b.name ? -1 : 1})
                 });
             
             function recalculate() {

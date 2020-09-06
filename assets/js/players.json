@@ -630,6 +630,491 @@
             "points": 105,
             "cost": 6.5
         },
+        {
+            "name": "Trossard",
+            "position": "MID",
+            "team": "BHA",
+            "points": 104,
+            "cost": 6
+        },
+        {
+            "name": "McCarthy",
+            "position": "GKP",
+            "team": "SOU",
+            "points": 104,
+            "cost": 4.5
+        },
+        {
+            "name": "Greenwood",
+            "position": "MID",
+            "team": "MUN",
+            "points": 103,
+            "cost": 7.5
+        },
+        {
+            "name": "Saiss",
+            "position": "DEF",
+            "team": "WOL",
+            "points": 103,
+            "cost": 5
+        },
+        {
+            "name": "Fernandez",
+            "position": "DEF",
+            "team": "NEW",
+            "points": 102,
+            "cost": 5
+        },
+        {
+            "name": "Haller",
+            "position": "FWD",
+            "team": "WHU",
+            "points": 102,
+            "cost": 6.5
+        },
+        {
+            "name": "Fleck",
+            "position": "MID",
+            "team": "SHU",
+            "points": 101,
+            "cost": 6
+        },
+        {
+            "name": "Rodriguez",
+            "position": "FWD",
+            "team": "BUR",
+            "points": 100,
+            "cost": 6
+        },
+        {
+            "name": "Alonso",
+            "position": "DEF",
+            "team": "CHE",
+            "points": 104,
+            "cost": 6
+        },
+
+        {
+            "name": "Moura",
+            "position": "MID",
+            "team": "TOT",
+            "points": 100,
+            "cost": 7
+        },
+        {
+            "name": "Dendoncker",
+            "position": "MID",
+            "team": "WOL",
+            "points": 100,
+            "cost": 5
+        },
+        ,
+        {
+            "name": "Trezeguet",
+            "position": "MID",
+            "team": "AVL",
+            "points": 98,
+            "cost": 5.5
+        },
+        {
+            "name": "Norwood",
+            "position": "MID",
+            "team": "SHU",
+            "points": 98,
+            "cost": 5
+        },
+        {
+            "name": "Armstrong",
+            "position": "MID",
+            "team": "SOU",
+            "points": 98,
+            "cost": 5.5
+        },
+        {
+            "name": "Lloris",
+            "position": "GKP",
+            "team": "TOT",
+            "points": 98,
+            "cost": 5.5
+        },
+        {
+            "name": "Alderweireld",
+            "position": "DEF",
+            "team": "TOT",
+            "points": 97,
+            "cost": 5.5
+        },
+        {
+            "name": "Boly",
+            "position": "DEF",
+            "team": "WOL",
+            "points": 97,
+            "cost": 5.5
+        },
+        {
+            "name": "Sigurdsson",
+            "position": "MID",
+            "team": "EVE",
+            "points": 95,
+            "cost": 7
+        },
+        {
+            "name": "James",
+            "position": "MID",
+            "team": "MUN",
+            "points": 95,
+            "cost": 6.5
+        },
+        {
+            "name": "Luiz",
+            "position": "DEF",
+            "team": "CHE",
+            "points": 94,
+            "cost": 5.5
+        },
+        {
+            "name": "El Ghazi",
+            "position": "MID",
+            "team": "AVL",
+            "points": 93,
+            "cost": 6
+        },
+        {
+            "name": "Gomez",
+            "position": "DEF",
+            "team": "LIV",
+            "points": 93,
+            "cost": 5.5
+        },
+        {
+            "name": "Fornals",
+            "position": "MID",
+            "team": "WHU",
+            "points": 93,
+            "cost": 6.5
+        },
+        {
+            "name": "Jorginho",
+            "position": "MID",
+            "team": "CHE",
+            "points": 92,
+            "cost": 5
+        },
+        {
+            "name": "McArhur",
+            "position": "MID",
+            "team": "CRY",
+            "points": 92,
+            "cost": 5.5
+        },
+        {
+            "name": "Rodrigo",
+            "position": "MID",
+            "team": "MCI",
+            "points": 92,
+            "cost": 5.5
+        },
+        {
+            "name": "Saint-Maximin",
+            "position": "MID",
+            "team": "NEW",
+            "points": 92,
+            "cost": 5.5
+        },
+        {
+            "name": "Wilson",
+            "position": "MID",
+            "team": "LIV",
+            "points": 91,
+            "cost": 5.5
+        },
+        {
+            "name": "Mings",
+            "position": "DEF",
+            "team": "LIV",
+            "points": 90,
+            "cost": 5
+        },
+        {
+            "name": "Wilson",
+            "position": "MID",
+            "team": "LIV",
+            "points": 91,
+            "cost": 5.5
+        },
+        {
+            "name": "Arrizabalaga",
+            "position": "GKP",
+            "team": "CHE",
+            "points": 90,
+            "cost": 5
+        },
+        {
+            "name": "Luiz",
+            "position": "MID",
+            "team": "AVL",
+            "points": 90,
+            "cost": 5
+        },
+        {
+            "name": "Keane",
+            "position": "DEF",
+            "team": "EVE",
+            "points": 90,
+            "cost": 5
+        },
+        {
+            "name": "Webster",
+            "position": "DEF",
+            "team": "BHA",
+            "points": 88,
+            "cost": 4.5
+        },
+        {
+            "name": "Snodgrass",
+            "position": "MID",
+            "team": "WHU",
+            "points": 87,
+            "cost": 6
+        },
+        {
+            "name": "Burn",
+            "position": "def",
+            "team": "BHU",
+            "points": 86,
+            "cost": 4.5
+        },
+        {
+            "name": "McBurnie",
+            "position": "FWD",
+            "team": "SHU",
+            "points": 86,
+            "cost": 6
+        },
+        {
+            "name": "Kouyate",
+            "position": "MID",
+            "team": "CRY",
+            "points": 85,
+            "cost": 5
+        },
+        {
+            "name": "Ndidi",
+            "position": "MID",
+            "team": "LEI",
+            "points": 85,
+            "cost": 5
+        },
+        {
+            "name": "Stephens",
+            "position": "DEF",
+            "team": "SOU",
+            "points": 85,
+            "cost": 5
+        },
+        {
+            "name": "McGinn",
+            "position": "MID",
+            "team": "AVL",
+            "points": 84,
+            "cost": 5.5
+        },
+        {
+            "name": "Taylor",
+            "position": "DEF",
+            "team": "BUR",
+            "points": 84,
+            "cost": 4.5
+        },
+        {
+            "name": "Mousset",
+            "position": "FWD",
+            "team": "SHU",
+            "points": 84,
+            "cost": 6
+        },
+        {
+            "name": "Bednarek",
+            "position": "DEF",
+            "team": "SOU",
+            "points": 84,
+            "cost": 4.5
+        },
+        {
+            "name": "Hourihane",
+            "position": "MID",
+            "team": "AVL",
+            "points": 83,
+            "cost": 6
+        },
+        {
+            "name": "Fabianski",
+            "position": "GKP",
+            "team": "WHU",
+            "points": 83,
+            "cost": 5
+        },
+        {
+            "name": "Otamendi",
+            "position": "DEF",
+            "team": "MCI",
+            "points": 82,
+            "cost": 5
+        },
+        {
+            "name": "Milivojevic",
+            "position": "MID",
+            "team": "CRY",
+            "points": 81,
+            "cost": 6
+        },
+        {
+            "name": "Ogbonna",
+            "position": "DEF",
+            "team": "WHU",
+            "points": 81,
+            "cost": 5
+        },
+        {
+            "name": "Targett",
+            "position": "DEF",
+            "team": "AVL",
+            "points": 80,
+            "cost": 4.5
+        },
+        {
+            "name": "Mooy",
+            "position": "MID",
+            "team": "BHA",
+            "points": 80,
+            "cost": 5
+        },
+        {
+            "name": "Ake",
+            "position": "DEF",
+            "team": "MCI",
+            "points": 79,
+            "cost": 5.5
+        },
+        {
+            "name": "Cresswell",
+            "position": "DEF",
+            "team": "WHU",
+            "points": 79,
+            "cost": 5
+        },
+        {
+            "name": "Propper",
+            "position": "MID",
+            "team": "BHA",
+            "points": 78,
+            "cost": 5
+        },
+        {
+            "name": "Bardsley",
+            "position": "DEF",
+            "team": "BUR",
+            "points": 78,
+            "cost": 4.5
+        },
+        {
+            "name": "Mina",
+            "position": "DEF",
+            "team": "EVE",
+            "points": 78,
+            "cost": 5.5
+        },
+        {
+            "name": "Joelinton",
+            "position": "FWD",
+            "team": "NEW",
+            "points": 78,
+            "cost": 6
+        },
+        {
+            "name": "Adams",
+            "position": "FWD",
+            "team": "SOU",
+            "points": 78,
+            "cost": 6
+        },
+        {
+            "name": "Pieters",
+            "position": "DEF",
+            "team": "BUR",
+            "points": 77,
+            "cost": 4.5
+        },
+        {
+            "name": "Ward",
+            "position": "DEF",
+            "team": "CRY",
+            "points": 77,
+            "cost": 4.5
+        },
+        {
+            "name": "Fabinho",
+            "position": "MID",
+            "team": "LIV",
+            "points": 77,
+            "cost": 5.5
+        },
+        {
+            "name": "Grob",
+            "position": "MID",
+            "team": "BHA",
+            "points": 76,
+            "cost": 6
+        },
+        {
+            "name": "Chamberlain",
+            "position": "MID",
+            "team": "LIV",
+            "points": 76,
+            "cost": 6.5
+        },
+        {
+            "name": "Diop",
+            "position": "DEF",
+            "team": "WHU",
+            "points": 76,
+            "cost": 4.5
+        },
+        {
+            "name": "Bertrand",
+            "position": "DEF",
+            "team": "SOU",
+            "points": 75,
+            "cost": 5
+        },
+        {
+            "name": "Lascelles",
+            "position": "DEF",
+            "team": "NEW",
+            "points": 73,
+            "cost": 4.5
+        },
+        {
+            "name": "Hayden",
+            "position": "MID",
+            "team": "NEW",
+            "points": 73,
+            "cost": 5
+        },
+        {
+            "name": "Martin",
+            "position": "GKP",
+            "team": "WHU",
+            "points": 20,
+            "cost": 4
+        },
+        {
+            "name": "Roberto",
+            "position": "GKP",
+            "team": "WHU",
+            "points": 18,
+            "cost": 4.5
+        },
 
         {"name": "Nyland",
             "position": "GKP",
