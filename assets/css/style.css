@@ -1,0 +1,156 @@
+body, html {
+    background-color: #10ac84;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    text-align: center;
+    width: 400px;
+    height: 190px;
+    background: url('../img/logo.svg') no-repeat 100%;
+    margin: 0 auto;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.result {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.opt-players {
+    font-weight: bolder;
+}
+
+.pitch {
+    background: url('../img/pitch.svg') no-repeat;
+    width: 100%;
+    height: 380px;
+    background-size: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.pitch h4 {
+    padding: 0.2rem 0.4rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    background-color:#222f3e;
+    color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-weight: normal;
+    font-size: .7rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.pitch p {
+    margin: 0;
+    font-weight: normal;
+    font-size: .8em;
+}
+
+.team {
+    padding: 0px 0.2rem;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: white;
+    color: #222f3e;
+}
+
+.gkp, .def, .mid, .fwd {
+    position: absolute;
+    float: left;
+    top: 6%;
+    width: 80px;
+    text-align: center;
+}
+
+.gkp1 {
+    left: 36%;
+}
+
+.gkp2 {
+    left: 52%;
+}
+
+.def {
+    top: 20%;
+}
+
+.mid {
+    top: 40%;
+}
+
+.fwd {
+    top: 60%;
+}
+
+.def1, .mid1 {
+    left: 15%;
+}
+
+.def2, .mid2 {
+    left: 30%;
+}
+
+.def3, .mid3 {
+    left: 45%;
+}
+
+.def4, .mid4 {
+    left: 60%;
+}
+
+.def5, .mid5 {
+    left: 75%;
+}
+
+.fwd1 {
+    left: 25%;
+}
+
+.fwd2 {
+    left: 45%;
+}
+
+.fwd3 {
+    left: 65%;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.options {
+    margin: 10px;
+    background-color: #1dd1a1;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: #222f3e;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.points-summary {
+    background-color: white;
+    padding: 10px;
+    color: #222f3e;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+}
