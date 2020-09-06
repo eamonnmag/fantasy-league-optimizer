@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <title>Fantasy League Solver</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
         integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
@@ -15,18 +17,34 @@
         <div class="logo"></div>
         <div class="info">
             <p>Our algorithm analyses historic scores and optimises the team
-                selection to gain the maximum number of points whilst keeping the cost
-                below 100 million, and complying with all fantasy league conditions (max players from 1 team is 3).
+                selection to gain the maximum number of points. 
+            </p>
+
+            <p>Note, that players such as Fernandes from Man Utd only played part of the season, so their points total was quite low.
+                If you want to override the decision of the algorithm, you can specify a player you really want, and also remove
+                a player you do not want.
             </p>
         </div>
 
-        <div class="options ui fluid">
+        <div class="options ui fluid positive">
 
             <div class="opt-players">
                 <p>I would like to have these players in my team:</p>
             </div>
             <br />
-            <select id="player-initial" class="ui search selection dropdown" name="favourite-players" multiple=""
+            <select id="player-initial-positive" class="ui search selection dropdown" name="positive-players" multiple=""
+                placeholder="Search for a player">
+            </select>
+
+        </div>
+
+        <div class="options ui fluid negative">
+
+            <div class="opt-players">
+                <p>I don't want these players in my team:</p>
+            </div>
+            <br />
+            <select id="player-initial-negative" class="ui search selection dropdown" name="negative-players" multiple=""
                 placeholder="Search for a player">
             </select>
 
@@ -68,42 +86,60 @@
                         return player.position.toLowerCase() + ' ' + player.position.toLowerCase() + counts[player.position];
                     })
 
-                    player_elem.append('h4').text(r);
+                    player_elem.append('h4').text(player.name);
                     player_elem.append('p').attr('class', 'team').html(player.team + ' &#163;' + player.cost + 'm');
                 }
-            });
-
-            
+            });  
 
             d3.select('#total_points').text(result.result);
         }
 
+        function build_player_lookup(players){
+            var player_lookup = {};
+
+            players.forEach(function(p) {
+                player_lookup[p.name + '_' + p.team + '_' + p.position] = p;
+            });
+
+            return player_lookup;
+        }
+
         d3.json('assets/js/players.json').then(function (response) {
 
-            players = response;
+            players = build_player_lookup(response.players);
             var result = fantasySolver.solve(players);
+
+            console.log(result);
             output_result(result);
             
             var for_select = [];
             Object.keys(players).forEach(function (p_key) {
-                for_select.push({ 'name': p_key + ' - ' + players[p_key].team + ' - &#163;' + players[p_key].cost, 'value': p_key })
+                for_select.push({ 'name': players[p_key].name + ' - ' + players[p_key].team + ' - &#163;' + players[p_key].cost, 'value': p_key })
             });
 
             $('.dropdown')
                 .dropdown({
                     action: 'combo',
-                    values: for_select
+                    values: for_select.sort()
                 });
             
             function recalculate() {
                 
-                var values = [];
+                var positive_values = [];
+                var negative_values = []; 
                 setTimeout(function() {
-                    d3.selectAll('a.ui.label.transition.visible').each(function (d) { 
-                        values.push(d3.select(this).attr('data-value')); 
+                    d3.selectAll('.options.positive a.ui.label.transition.visible').each(function (d) { 
+                        positive_values.push(d3.select(this).attr('data-value')); 
                     });
-                    console.log(values);
-                    var result = fantasySolver.runWithInitialPlayers(values);
+
+                    d3.selectAll('.options.negative a.ui.label.transition.visible').each(function (d) { 
+                        negative_values.push(d3.select(this).attr('data-value')); 
+                    });
+
+                    console.log(positive_values);
+                    console.log(negative_values);
+                    
+                    var result = fantasySolver.runWithInitialPlayers(positive_values, negative_values);
                     console.log(result);
                     output_result(result);
                     
@@ -114,10 +150,15 @@
                 })
             }
             
-            d3.select("#player-initial")
+            d3.select("#player-initial-positive")
                 .on("change", function () {
                     recalculate();
-                })
+                });
+
+            d3.select("#player-initial-negative")
+                .on("change", function () {
+                    recalculate();
+                });
         });
 
     </script>

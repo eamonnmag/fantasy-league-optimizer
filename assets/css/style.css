@@ -5,11 +5,16 @@ body, html {
 
 .logo {
     text-align: center;
-    width: 400px;
+    max-width: 320px;
     height: 190px;
     background: url('../img/logo.svg') no-repeat 100%;
     margin: 0 auto;
     
+}
+
+.info {
+    padding: 10px;
+    font-weight: bolder;
 }
 
 .container {
@@ -18,7 +23,8 @@ body, html {
 }
 
 .result {
-    width: 600px;
+    width: 95%;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -27,10 +33,13 @@ body, html {
 }
 
 .pitch {
-    background: url('../img/pitch.svg') no-repeat;
-    width: 100%;
-    height: 380px;
-    background-size: 100%;
+    background: url('../img/pitch.svg') no-repeat 100%;
+    background-position: center top;
+    width: 95%;
+    max-width: 600px;
+    min-height: 350px;
+    margin: 0 auto;
+    height: auto;
     margin-top: 30px;
     position: relative;
 }
@@ -127,11 +136,14 @@ body, html {
     width: 100%;
 }
 
+
+
 .options {
     margin: 10px;
     background-color: #1dd1a1;
     padding: 10px;
     border-radius: 4px;
+    border: none;
 }
 
 .button {
@@ -146,6 +158,11 @@ body, html {
     display: inline-block;
 }
 
+.options.negative {
+    background-color: #ee5253;
+    color: white;
+}
+
 .points-summary {
     background-color: white;
     padding: 10px;
@@ -153,4 +170,57 @@ body, html {
     border-radius: 4px;
     text-align: center;
     margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .container {
+        width: 90%;
+    }
+
+    .gkp, .def, .mid, .fwd {
+        width: 70px;
+        font-size: .8em;
+    }
+
+    .gkp1 {
+        left: 28%;
+    }
+    
+    .def1, .mid1 {
+        left: -3%;
+    }
+
+    .def2, .mid2 {
+        left: 19%;
+    }
+
+    .def3, .mid3 {
+        left: 39%;
+    }
+
+    .def4, .mid4 {
+        left: 60%;
+    }
+
+    .def5, .mid5 {
+        left: 81%;
+    }
+
+    .fwd1 {
+        left: 10%;
+    }
+
+    .fwd2 {
+        left: 39%;
+    }
+
+    .fwd3 {
+        left: 68%;
+    }
+
+    .pitch {
+        width: 100%;
+        min-height: 390px;
+    }
 }

@@ -6,7 +6,8 @@ var fantasySolver = (function () {
 
         var constraints =  {
             "cost": { "max": 100 },
-            "GKP": { "max": 2, "min": 2 },
+            "GKP": { "max": 1, "min": 1 },
+            "GKP_LOW": {"min":1, "max": 1},
             "DEF": { "max": 5, "min": 5 },
             "MID": { "max": 5, "min": 5 },
             "FWD": { "max": 3, "min": 3 }
@@ -29,14 +30,21 @@ var fantasySolver = (function () {
         Object.keys(players).forEach(function(p) {
             var player = players[p];
             player[p] = 1;
-            player[player['position']] = 1;
+            if(player.position === "GKP" & +player.cost <= 4) {
+                player["GKP_LOW"] = 1;
+            } else {
+                player[player['position']] = 1;
+            }
             player[player['team']] = 1;
+            
             if(teams.indexOf(player['team']) == -1) {
                 teams.push(player['team']);
             }
 
+            if(player.position === "GKP" & +player.cost <= 4) {
+                player["GKP_LOW"] = 1;
+            }
             player_map[p] = 1;
-            
         });
 
         return {'variables': players, 'teams': teams, 'players': Object.keys(players), 'player_map': player_map};
@@ -63,10 +71,14 @@ var fantasySolver = (function () {
             return run_solver(constraints, processed_data);
         },
 
-        runWithInitialPlayers: function(initial_players) {
+        runWithInitialPlayers: function(positive, negative) {
             let _updated = Object.assign({}, constraints);
-            initial_players.forEach(function(d) {
+            positive.forEach(function(d) {
                 _updated[d] = {'min': 1, "max":1};
+            });
+
+            negative.forEach(function(d) {
+                _updated[d] = {'min': 0, "max":0};
             });
 
             return run_solver(_updated, processed_data);
