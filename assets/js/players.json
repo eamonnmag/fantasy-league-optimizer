@@ -1477,6 +1477,13 @@
             "team": "LIV",
             "points": 13,
             "cost": 4.5
+        },
+        {"name": "Werner",
+            "position": "FWD",
+            "team": "CHE",
+            "points": 0,
+            "cost": 9.5
         }
+
     ]
 }
