@@ -1423,7 +1423,7 @@
             "cost": 4.5
         },
 
-        {"name": "Bamform",
+        {"name": "Bamford",
             "position": "FWD",
             "team": "LEE",
             "points": 0,
@@ -1483,6 +1483,93 @@
             "team": "CHE",
             "points": 0,
             "cost": 9.5
+        },
+
+        {"name": "Rodriguez",
+            "position": "MID",
+            "team": "EVE",
+            "points": 0,
+            "cost": 7.5
+        },
+        {"name": "Silva",
+            "position": "DEF",
+            "team": "CHE",
+            "points": 0,
+            "cost": 5.5
+        },
+        {"name": "Wilson",
+            "position": "FWD",
+            "team": "NEW",
+            "points": 0,
+            "cost": 6.5
+        },
+        
+        {"name": "Fraser",
+            "position": "MID",
+            "team": "NEW",
+            "points": 0,
+            "cost": 6
+        },
+        {"name": "S.Longstaff",
+            "position": "MID",
+            "team": "NEW",
+            "points": 44,
+            "cost": 5
+        },
+        {"name": "M.Longstaff",
+            "position": "MID",
+            "team": "NEW",
+            "points": 27,
+            "cost": 5
+        },
+        {"name": "Gillespie",
+            "position": "GKP",
+            "team": "NEW",
+            "points": 0,
+            "cost": 4.5
+        },
+        {"name": "Havertz",
+            "position": "MID",
+            "team": "CHE",
+            "points": 0,
+            "cost": 4.5
+        },
+        {"name": "Rodrigo",
+            "position": "FWD",
+            "team": "LEE",
+            "points": 0,
+            "cost": 6
+        },
+        {"name": "Branthawite",
+            "position": "DEF",
+            "team": "EVE",
+            "points": 0,
+            "cost": 4
+        },
+        {"name": "Ferguson",
+            "position": "DEF",
+            "team": "CRY",
+            "points": 0,
+            "cost": 4
+        }, 
+        
+        {"name": "Johnson",
+            "position": "DEF",
+            "team": "WHU",
+            "points": 0,
+            "cost": 4
+        },
+        {"name": "Fabri",
+            "position": "GKP",
+            "team": "FUL",
+            "points": 0,
+            "cost": 4
+        },
+        {"name": "Miazek",
+            "position": "GKP",
+            "team": "LEE",
+            "points": 0,
+            "cost": 4
         }
 
     ]

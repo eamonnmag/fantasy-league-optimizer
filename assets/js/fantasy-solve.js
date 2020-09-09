@@ -32,10 +32,12 @@ var fantasySolver = (function () {
     function process_players(players) {
         var teams = [];
         var player_map = {};
+        var min_prices= {'GKP': 4, 'DEF': 4, 'MID': 4.5, 'FWD': 4.5}
         Object.keys(players).forEach(function(p) {
             var player = players[p];
             player[p] = 1;
-            if(+player.cost <= 4.5) {
+            
+            if(player.cost <= min_prices[player.position]) {
                 player[player['position'] + "_LOW"] = 1;
             } else {
                 player[player['position']] = 1;
