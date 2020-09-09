@@ -693,7 +693,6 @@
             "points": 104,
             "cost": 6
         },
-
         {
             "name": "Moura",
             "position": "MID",
@@ -1401,191 +1400,211 @@
             "points": 18,
             "cost": 4.5
         },
-
-        {"name": "Nyland",
+        {
+            "name": "Nyland",
             "position": "GKP",
             "team": "AVL",
             "points": 15,
             "cost": 4
         },
-
-        {"name": "Brewster",
+        {
+            "name": "Brewster",
             "position": "FWD",
             "team": "LIV",
             "points": 0,
             "cost": 4.5
         },
-
-        {"name": "Wickham",
+        {
+            "name": "Wickham",
             "position": "FWD",
             "team": "CRY",
             "points": 15,
             "cost": 4.5
         },
-
-        {"name": "Bamford",
+        {
+            "name": "Bamford",
             "position": "FWD",
             "team": "LEE",
             "points": 65,
             "predicted": true,
             "cost": 5.5
         },
-
-        {"name": "Davis",
+        {
+            "name": "Davis",
             "position": "FWD",
             "team": "AVL",
             "points": 25,
             "cost": 4.5
         },
-
-        {"name": "Obafemi",
+        {
+            "name": "Obafemi",
             "position": "FWD",
             "team": "SOU",
             "points": 45,
             "cost": 5
         },
-
-        {"name": "Mitrovic",
+        {
+            "name": "Mitrovic",
             "position": "FWD",
             "team": "FUL",
             "points": 42,
             "predicted": true,
             "cost": 6
         },
-
-        {"name": "Nakamba",
+        {
+            "name": "Nakamba",
             "position": "MID",
             "team": "AVL",
             "points": 43,
             "cost": 4.5
         },
-
-        {"name": "Romeu",
+        {
+            "name": "Romeu",
             "position": "MID",
             "team": "SOU",
             "points": 51,
             "cost": 4.5
         },
-
-        {"name": "Elliot",
+        {
+            "name": "Elliot",
             "position": "MID",
             "team": "LIV",
             "points": 2,
             "cost": 4.5
         },
-
-        {"name": "Jones",
+        {
+            "name": "Jones",
             "position": "MID",
             "team": "LIV",
             "points": 13,
             "cost": 4.5
         },
-        {"name": "Werner",
+        {
+            "name": "Werner",
             "position": "FWD",
             "team": "CHE",
             "points": 200,
             "predicted": true,
             "cost": 9.5
         },
-
-        {"name": "Rodriguez",
+        {
+            "name": "Rodriguez",
             "position": "MID",
             "team": "EVE",
             "points": 100,
             "predicted": true,
             "cost": 7.5
         },
-        {"name": "Silva",
+        {
+            "name": "Silva",
             "position": "DEF",
             "team": "CHE",
             "points": 97,
             "predicted": true,
             "cost": 5.5
         },
-        {"name": "Wilson",
+        {
+            "name": "Wilson",
             "position": "FWD",
             "team": "NEW",
             "points": 116,
             "cost": 6.5
         },
-        
-        {"name": "Fraser",
+        {
+            "name": "Fraser",
             "position": "MID",
             "team": "NEW",
             "points": 73,
             "cost": 6
         },
-        {"name": "S.Longstaff",
+        {
+            "name": "S.Longstaff",
             "position": "MID",
             "team": "NEW",
             "points": 44,
             "cost": 5
         },
-        {"name": "M.Longstaff",
+        {
+            "name": "M.Longstaff",
             "position": "MID",
             "team": "NEW",
             "points": 27,
             "cost": 5
         },
-        {"name": "Gillespie",
+        {
+            "name": "Gillespie",
             "position": "GKP",
             "team": "NEW",
             "points": 0,
             "cost": 4.5
         },
-        {"name": "Havertz",
+        {
+            "name": "Havertz",
             "position": "MID",
             "team": "CHE",
             "points": 180,
             "predicted": true,
-            "cost": 4.5
+            "cost": 8.5
         },
-        {"name": "Rodrigo",
+        {
+            "name": "Rodrigo",
             "position": "FWD",
             "team": "LEE",
             "points": 140,
             "predicted": true,
             "cost": 6
         },
-        {"name": "Branthwaite",
+        {
+            "name": "Smalling",
+            "position": "DEF",
+            "team": "MUN",
+            "points": 62,
+            "predicted": true,
+            "cost": 5
+        },
+        {
+            "name": "Branthwaite",
             "position": "DEF",
             "team": "EVE",
             "points": 0,
             "cost": 4
         },
-        {"name": "Ferguson",
+        {
+            "name": "Ferguson",
             "position": "DEF",
             "team": "CRY",
             "points": 13,
             "predicted": true,
             "cost": 4
-        }, 
-        
-        {"name": "Johnson",
+        },
+        {
+            "name": "Johnson",
             "position": "DEF",
             "team": "WHU",
             "points": 0,
             "cost": 4
         },
-        {"name": "Fabri",
+        {
+            "name": "Fabri",
             "position": "GKP",
             "team": "FUL",
             "points": 0,
             "cost": 4
         },
-        {"name": "Miazek",
+        {
+            "name": "Miazek",
             "position": "GKP",
             "team": "LEE",
             "points": 20,
             "predicted": true,
             "cost": 4
         },
-        {"name": "Lewis",
+        {
+            "name": "Lewis",
             "position": "DEF",
             "team": "NEW",
             "points": 48,
             "cost": 4
         }
-
     ]
 }
