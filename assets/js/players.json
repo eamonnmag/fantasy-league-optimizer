@@ -547,7 +547,7 @@
             "cost": 5.5
         },
         {
-            "name": "O'ConnelL",
+            "name": "O'Connell",
             "position": "MID",
             "team": "SHU",
             "points": 111,
@@ -1605,6 +1605,13 @@
             "team": "NEW",
             "points": 48,
             "cost": 4.5
+        },
+        {
+            "name": "van de Beek",
+            "position": "MID",
+            "team": "MUN",
+            "points": 50,
+            "cost": 7
         }
     ]
 }
