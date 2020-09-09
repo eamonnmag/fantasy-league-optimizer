@@ -1426,7 +1426,8 @@
         {"name": "Bamford",
             "position": "FWD",
             "team": "LEE",
-            "points": 0,
+            "points": 65,
+            "predicted": true,
             "cost": 5.5
         },
 
@@ -1447,7 +1448,8 @@
         {"name": "Mitrovic",
             "position": "FWD",
             "team": "FUL",
-            "points": 0,
+            "points": 42,
+            "predicted": true,
             "cost": 6
         },
 
@@ -1481,33 +1483,36 @@
         {"name": "Werner",
             "position": "FWD",
             "team": "CHE",
-            "points": 0,
+            "points": 200,
+            "predicted": true,
             "cost": 9.5
         },
 
         {"name": "Rodriguez",
             "position": "MID",
             "team": "EVE",
-            "points": 0,
+            "points": 100,
+            "predicted": true,
             "cost": 7.5
         },
         {"name": "Silva",
             "position": "DEF",
             "team": "CHE",
-            "points": 0,
+            "points": 97,
+            "predicted": true,
             "cost": 5.5
         },
         {"name": "Wilson",
             "position": "FWD",
             "team": "NEW",
-            "points": 0,
+            "points": 116,
             "cost": 6.5
         },
         
         {"name": "Fraser",
             "position": "MID",
             "team": "NEW",
-            "points": 0,
+            "points": 73,
             "cost": 6
         },
         {"name": "S.Longstaff",
@@ -1531,16 +1536,18 @@
         {"name": "Havertz",
             "position": "MID",
             "team": "CHE",
-            "points": 0,
+            "points": 180,
+            "predicted": true,
             "cost": 4.5
         },
         {"name": "Rodrigo",
             "position": "FWD",
             "team": "LEE",
-            "points": 0,
+            "points": 140,
+            "predicted": true,
             "cost": 6
         },
-        {"name": "Branthawite",
+        {"name": "Branthwaite",
             "position": "DEF",
             "team": "EVE",
             "points": 0,
@@ -1549,7 +1556,8 @@
         {"name": "Ferguson",
             "position": "DEF",
             "team": "CRY",
-            "points": 0,
+            "points": 13,
+            "predicted": true,
             "cost": 4
         }, 
         
@@ -1568,7 +1576,14 @@
         {"name": "Miazek",
             "position": "GKP",
             "team": "LEE",
-            "points": 0,
+            "points": 20,
+            "predicted": true,
+            "cost": 4
+        },
+        {"name": "Lewis",
+            "position": "DEF",
+            "team": "NEW",
+            "points": 48,
             "cost": 4
         }
 
